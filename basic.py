@@ -1,8 +1,3 @@
-a=5
-b=6
-sum=a+b
-print(sum)
-div=a/b
-print(div)
-mul=a*b
-print(mul)
+a=int(input('enter a number'))
+b=int(input('enter a number'))
+print('sum=',a+b,'substraction=',a-b,'product=',a*b,'division=',a/b)
